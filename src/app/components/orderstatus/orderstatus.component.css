@@ -1,0 +1,75 @@
+.container-fluid
+{
+  background: #e1e1e1;
+  min-height: 650px;
+  width: 100%;
+  height: 700px;
+}
+.left {
+  align-items: flex-end;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+
+}
+div {
+  display: block;
+}
+
+.dflex {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+
+  color: #000 ;
+  margin-bottom: -70px;
+  padding-left: 50px;
+
+}
+.c{
+  font-family: proxima,Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.1;
+}
+/* h2, .h2 {
+  font-size: 32px;
+}
+h1, h2, h3 {
+  margin-top: 21px;
+  margin-bottom: 10.5px;
+} */
+/* .col-md-6
+{
+  position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+
+} */
+.dflex.right::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 270px;
+  border-right: 1px solid #000;
+  left: 0;
+}
+.left{
+  padding-top: 240px;
+}
+.right{
+  float: right;
+
+ margin-top: -150px;
+}
+.btn{
+ border-radius: 0px;
+ padding:3px 2px;
+ background-color: #000;
+
+}
+

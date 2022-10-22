@@ -1,0 +1,101 @@
+.container {
+    height: 900px;
+    background-color:rgb(244, 239, 239);
+    max-width: 100%;
+    padding-top: 20px;
+    margin-top: 100px;
+ }
+ 
+ .text-center {
+     text-align: center;
+ }
+ 
+
+ 
+ .linegap {
+     line-height: 30px;
+  }
+ 
+  img {
+     vertical-align: middle;
+ }
+ 
+ .img-responsive {
+     display: block;
+     height: 700px;
+     max-width: 70%;
+     width: 100%;
+     margin-left:15%;
+     margin-top: -100PX;
+ }
+ 
+ .container1 {
+     background-image:url(https://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Returns%20page.jpg);
+     background-size: cover;
+     background-position: 0%;
+     background-size: 1150px;
+     background-position: 50%;
+     height: 800px;
+     background-color:black;
+     max-width: 100%;
+     padding-top: 20px;
+  }
+ 
+  #pot {
+    margin-top: 15px;
+    margin-left:0px;
+    position: absolute;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 1s;
+    color: #fff;
+  }
+
+  .ms-mb-x {
+     margin-bottom: 25px!important;
+     margin-top: 25px!important;
+     margin-left: 38%;
+ }
+ 
+ .corner
+ {
+     color: gray;
+    margin-left: 90px;
+ }
+ 
+ .linegap1
+ {
+     line-height: 5px;
+ }
+ 
+ .bottomComment {
+     margin-top: 350px;
+ }
+ 
+ .fas {
+     font-family: FontAwesome;
+     font-style: normal;
+     font-size: 20px;
+     padding-top:  700px;
+    
+ }
+ .fa-chevron-down {
+     transition: all 0.3s ease;
+     animation: block-link-arrow-down 1s infinite;
+       -webkit-animation: block-link-arrow-down 1s infinite;
+       -moz-animation: block-link-arrow-down 1s infinite;
+     display: inline-block;
+     font-size: 16px;
+ }
+ 
+ .getintouch {
+     color: white;
+     border: 1px solid #fff;
+     padding: 5px;
+     margin-right: 5px;
+     display: inline-block;
+ }
+ 
+ .ms-mt-m {
+     margin-top: 5px!important;
+ }

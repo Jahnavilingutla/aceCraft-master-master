@@ -1,0 +1,68 @@
+.textalign{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: grey;
+    font-size: 40px;
+    margin: auto;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.textalign_para{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #3a3737;
+    font-size: 17px;
+    margin: auto;
+    text-align: center;    
+    line-height: 1.5;
+    padding-right: 23px;
+    padding-left: 23px;
+}
+p{
+    margin: 0 0 10.5px;
+}
+
+.container{
+    height: 400px;
+}
+
+.imgcontainer{
+    height: 100%;
+    display: block;
+    margin: auto;
+}
+
+.text_container{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+.second_text_container{
+    margin-top: 180px;
+    padding-right: 40px;
+    padding-left: 40px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items:center
+}
+
+.second_container{
+height: 561px;
+}
+
+.z_index {
+    z-index: 10;
+    position: absolute;
+    width: 50%;
+    text-shadow: 0 0 9px black;
+}
+
+.third_text_container{
+        
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items:center
+}

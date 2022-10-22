@@ -1,0 +1,304 @@
+.logo {
+    padding-left: 42%;
+
+}
+
+.sl1 {
+    color: red;
+}
+
+.school {
+    background-image: url('http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/home4.jpg');
+    height: 200px;
+    width: 100%;
+
+}
+
+.logos {
+    width: 60px;
+    height: 60px;
+}
+
+.schlogo {
+    list-style: none;
+    margin-left: 28%;
+
+}
+
+.schlogo li {
+
+    float: left;
+    margin-left: 30px;
+}
+
+.Schoollogo {
+    width: 100%;
+    height: 100px;
+}
+
+.section1 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/About-us-1.jpg);
+    background-size: cover;
+    background-position: center 120px;
+    background-repeat: none;
+    background-attachment: fixed;
+    height: 780px;
+   
+   
+}
+
+.section1 h1 {
+    padding-top: 27%;
+    margin-left: 23%;
+
+    color: #EDEDED;
+    font-size: 30px; 
+    bottom:100px;
+}
+
+.section2 {
+    height: 700px;
+    background-color: black;
+}
+
+.section2 p {
+    color: gray;
+    font-size: 30px;
+    font-size: 40px;
+    padding-top: 18%;
+    text-align: center;
+}
+
+.section3 {
+    height: 1200px;
+    background-image: url('http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/home3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-y: 30%;
+}
+
+.section3 p {
+    color: #DDDDDD;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.section3 h3 {
+    color: #DDDDDD;
+    text-align: center;
+    padding-top: 25%;
+    font-size: 50px;
+}
+
+.section4 {
+    height: 2500px;
+    background-color: #000000;
+}
+
+.section4 h1 {
+    text-align: right;
+    font-weight: bold;
+    padding-top: 15%;
+    padding-right: 10%;
+    color: #BBBBBB;
+}
+
+.section4 p {
+    text-align: right;
+    padding-top: 2%;
+    padding-right: 10%;
+    font-size: 25px;
+    color: #BBBBBB;
+}
+
+.banner1 {
+    height: 1900px;
+    padding-left: 8%;
+}
+
+.banner {
+    width: 90%;
+}
+
+.section5 {
+    height: 600px;
+    background-image: url('https://img.freepik.com/free-photo/office-desk-with-black-notepad-pen-black-background-top-view-with-copy-space-business-goals-objectives-concept_94046-6021.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.btn1 {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    width: 10%;
+    height: 30px;
+}
+
+.footer{
+    padding-top: 15%;
+}
+
+.footer h5 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.footer h6 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+.footer p {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+.footer2 {
+
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+
+.boxed h1 {
+    text-align: center;
+    font-size: 20px;
+    }
+    .textalign{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        line-height: 1.1;
+        color: grey;
+        font-size: 39px;
+        margin: auto;
+    }
+    .textalign_black{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 700;
+        line-height: 1.1;
+        color: rgb(0, 0, 0);
+        font-size: 2.2pc;
+        /* margin: auto; */
+    }
+
+    .footer-head{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 35px;
+        color: inherit;
+        margin-top: 21px;
+        margin-bottom: 10.5px;
+    
+    }
+    .footer-p{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+
+    }
+     
+    .greytext{
+        color: #ada7a7;
+    }
+    .container .breadcrumb, .static-page-heading {
+        display: none !important;
+    }
+    .about1 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    }
+    .about3 .content div{
+    max-width: 310px;
+    margin: auto;
+    font-size: 18px;
+    color: #ada7a7;
+    }
+    .about1 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/About-us-1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 120px;
+    }
+    .about5 .container .content div, .about6 .container .content div {
+    font-size: 18px;
+    color: #ada7a7;
+    }
+    .about2 {
+    height: auto;
+    display: flex;
+    padding-top: 100px;
+    justify-content: center;
+    }
+    .about2 .middleText {
+    max-width: 500px;
+    }
+    .bg-grey {
+    background-color: #dadada;
+    }
+    .about3 .container , .about4 .container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    .about4 .container {
+    flex-wrap: wrap;
+    }
+    .about4 .container h1{
+    flex-basis: 100%;
+    }
+    .about5, .about6 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/About-us-51.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+
+    .team .first-row, .team .second-row, .team .third-row {
+        margin-top: 20px;
+        padding: 0 25px;
+    }
+    .about6 {
+    background-image: url(http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/About-us-61.jpg);
+    }
+    .about5 .container, .about6 .container {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    }
+    .about5 .container .content, .about6 .container .content {
+    max-width: 310px;
+    margin: auto;
+    }
+    .team .first-row,.team .second-row, .team .third-row {
+    margin-top: 20px;
+    padding: 0 25px;
+    }
+    
+    .boxed {
+    height: 150px;
+    background: grey;
+    width: 178px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    margin: 0 20px;
+    text-align: center;
+    }
+    .boxed p {
+    color: #ffffffab;
+    }
+
+    .text-center{
+        display: block;
+        margin: auto;
+    }

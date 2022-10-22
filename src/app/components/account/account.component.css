@@ -1,0 +1,23 @@
+.nav-item{
+    /* margin-right: 95px; */
+  }
+  
+  .container-fluid{
+    background-color: black;
+    height: 70px;
+  }
+  
+  .nav-link{
+    color: white;
+  }
+  
+  .nav-link:hover{
+    color: grey;
+    border-bottom: 1px solid grey;
+  }
+  
+  .whiteline{
+    /* margin-top: 1rem;
+      margin-bottom: 1rem; */
+      border-top: 1px solid rgb(255, 255, 255);
+  }

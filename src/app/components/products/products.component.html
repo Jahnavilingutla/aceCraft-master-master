@@ -1,0 +1,84 @@
+
+<div class="container-fluid" style="background-color:white;padding-left: 150px; margin-top: 100px;">
+  
+  <div class="container" >
+    <div class="row">
+      <div class="col-9">
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn" style="box-shadow: 2.5px 5px #dcd8d8;"><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRICE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GENDER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GRADE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BRAND&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </b>    </button>
+        <div class="dropdown-content">
+          <div style="margin-top: 40px;margin-left: 20px;"><input type="number" name="quantity" style="width:50px;border-radius:10px;" min="1" max="25">&nbsp;-&nbsp;<input type="number" name="quantity" style="width:50px;border-radius:10px;" min="1" max="25">&nbsp;&nbsp;&nbsp;<button class="go">GO</button></div>
+          <div class="form-check" style="margin-left: 230px;margin-top: -30px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Male
+            </label>
+          </div>
+          <div class="form-check" style="margin-left: 230px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Female
+            </label>
+          </div>
+          
+          <div class="form-check" style="margin-left: 430px;margin-top: -50px;">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              NHG Grade 1-4 (13)
+            </label>
+          </div>
+          <div class="form-check" style="margin-left: 430px;">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+NHG Grade 11-12 (15)
+            </label>
+          </div>
+          <div class="form-check" style="margin-left: 430px;">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              NHG Grade 5-10 (15)
+            </label>
+          </div>
+          <div class="form-check" style="margin-left: 430px;">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">   
+NHIS Nursery-Grade 5 (11)
+            </label>
+          </div>
+
+          <div class="form-check" style="margin-left: 640px;margin-top: -80px;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Acecraft (13)
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="col-3" style="float: right; margin-top: 30px; margin-left: 900px;">
+        <select (change)='onOptionsSelected($event)' class="o">
+          <option >Sort By:</option>
+          <option value="lth">Price : Low to High</option>
+          <option value="htl">Price : High to Low</option>
+          <option value="nasc">Name : Ascending Order</option>
+          <option value="ndesc">Name : Descending Order</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+
+    <div class="col-6">
+      <p><span style="font-size: 18px; font-family: proxima; margin-left: 10px; "><b>NEW HORIZON GURUKUL</b></span></p>
+    </div>
+
+    </div>
+
+    <div class="row">
+
+
+      <div class="card col-4" *ngFor="let item of productsList| sort:[sortParam,sortDirection]">
+        <app-single-product [products]="item"> </app-single-product>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="col col-md-12">
+      <div class="text-info container ng-scope" ng-if="tracking_number" >
+        <p class="ng-binding"><b>AWB Number:</b> 4444</p>
+    </div>
+    <div class="row" >
+  
+      <div class="col-md-6 dflex left">
+        <h2 class="proximaThin c">Find  <br>Your<br> <b>Order</b></h2>
+        </div>
+        <div class="col-md-6 dflex right"  >
+          <h2 class="c"><b>Look it up with your shipping number.</b></h2>
+          <div class="">
+            <form [formGroup]="orderFrom" (ngSubmit)="order()">
+              <input type="text"  name="tid" formControlName="tid"ng-model="tracking_number" class="form-control" style="width: 300px; height: 30px;margin-top: 0px;"><br>
+            </form>
+  
+          </div>
+          <button class="btn btn-dark" type="button" (click)="order()"style="width: 180px;">Continue</button><br>
+          <p>Wish to track your order with your Order ID? <a  [routerLink]="['/login']" style="color: #2196F3;">Login</a></p>
+          <p>Need more information? <a data-toggle="modal" href="getintouch" data-target="#exampleModal" style="color: #2196F3;">Get In Touch</a></p>
+          </div>
+    </div>
+  
+  </div>
+  
+  
+  
+  

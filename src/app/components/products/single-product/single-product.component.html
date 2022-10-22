@@ -1,0 +1,5 @@
+
+<a [routerLink]="['/viewProduct',products.id]">
+  <img class="card-img" src="{{products.imgSrc}}">
+</a>
+<h6 class="card-title" style="font-size: 15px;">{{products.brand}}<br>{{products.title|uppercase}}<br>{{products.price|currency:"INR"}}</h6>

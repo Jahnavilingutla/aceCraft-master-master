@@ -1,0 +1,59 @@
+<div class="container-fluid">
+  <div *ngIf="totalPrice(cart)>0">
+  <div class="container"  >
+    <h1 class="heading">Your bag total is {{totalPrice(cart)|currency:'INR':'symbol':'3.0'}}</h1>
+    <hr class="line">
+  </div>
+  <div class="container mb-2" *ngFor="let item of cart">
+    <div class="row">
+      <div class="col-lg-3 col-sm">
+        <img src={{item.imgSrc}} style="width:130%;">
+      </div>
+      <div class="col-lg-5 col-sm" style="padding-left:120px" >
+        <b style="font-size:22px">{{item.title}}</b>
+        <h5 class="font_size"><span class="span_size">Size:</span>{{item.size}}</h5>
+      </div>
+      <div class="col-lg-2 col-sm">
+        <app-counterchild [counterValue]="item.quantity" (quantityEmitter)="receivequantity($event)"
+          (click)="updateToCart(item)"></app-counterchild>
+        <!-- <input type="number"  [(ngModel)]="item.quantity"  (click)="updateToCart(item,quanties)" name="quantity" class="quantity">-->
+      </div>
+      <div class=" col-lg-2 col-sm">
+        <div class="price_heading">{{item.totalPrice|currency:'INR':'symbol':'3.0'}}</div>
+        <span role="button" class="btn mx-5 mt-2" style="color: red;" (click)="delete(item)">Remove</span>
+      </div>
+    </div>
+    <hr class="line">
+  </div>
+ 
+  <div class="row">
+    <div class="col-lg-4">
+    </div>
+    <div class="col-lg-4">
+      <div class="sub_heading" style="color: grey; font-size: 17px; text-align: start;">
+        Sub Total
+      </div>
+      <div class="sub_heading" style="text-align: start;">Total</div>
+    </div>
+    <div class="col-lg-4" style="margin-left: -55px;">
+      <div class="sub_heading" style="color: grey; font-size: 17px; text-align: end;">{{totalPrice(cart)|currency:'INR':'symbol':'3.0'}}</div>
+      <div class="sub_heading" style="text-align: end;">
+        <h2>{{totalPrice(cart)|currency:'INR':'symbol':'3.0'}}</h2>
+      </div>
+    </div>
+  </div>
+  <div class="button_div">
+    <button class="button"><span style="font-size:18px" [routerLink]="['/home']">Continue Shopping </span></button>
+    <button class="button" [routerLink]="['/check']"><span style="font-size:18px"   >Place Order </span></button>
+  </div>
+</div>
+
+  <div class="container" *ngIf="totalPrice(cart)==0" style="background-color: white;margin-top:-200px;height:600px;">
+    <h1 style="margin-left:800px;margin-top:300px;"><br><br><br><br><br><br><br><br><br><br><b>Oops! Your Cart is empty...</b></h1>
+    <img style="width: 800px;height: 500px;margin-top:-300px;" src="https://hakimitr.com/assets/website/images/empty-cart.gif">
+  </div>
+
+  
+</div>
+
+

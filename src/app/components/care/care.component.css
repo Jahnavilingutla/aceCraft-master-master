@@ -1,0 +1,164 @@
+.wh
+{
+  background-color: white;
+  color: #fff;
+  margin-top: 100px;
+}
+
+.yellow{
+  max-width: 360px;
+  margin: 30px auto;
+  background: #ffd634;
+  padding: 20px;
+  display: flex;
+  margin-top: 70px;
+
+
+}
+.yellow .col-md-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.33333333333333%;
+}
+.yellow .col-md-8
+{
+  position: relative;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+i.fas {
+  font-family: FontAwesome;
+  font-style: normal;
+}
+
+.fa-exclamation-triangle {
+  font-size: 50px;
+  color: black;
+
+
+}
+.first{
+  position: relative;
+  left: 20px;
+  color: black;
+margin-top: -10px;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 4;
+}
+.careimg img {
+  height: 300px;
+  margin: auto;
+  transition: all 0.3s ease;
+}
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.careimg img:hover {
+  transform: scale(1.1);
+}
+.text-mute {
+  color: grey;
+}
+.c{
+
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+.box
+{
+  margin-top: 50px;
+}
+/* b, strong {
+  font-weight: bold;
+} */
+h1, .h1 {
+  color: #000;
+
+}
+.ms-m-0 {
+  margin: 0;
+}
+.pt{
+  margin: 0 0 10.5px;
+  color: #000;
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+p {
+  color: grey;
+  margin: 0 0 10.5px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 10.5px;
+  margin-left: 0px;
+
+}
+.col-xs-4 {
+  width: 33.33333333333333%;
+  float: left;
+  position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+}
+/* .icon1 {
+ background-image: "http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/care-icon-1.png";
+} */
+.care-icon {
+
+  position: relative;
+
+  top:-30px;
+
+
+}
+col-md-6{
+  position: relative;
+    min-height: 1px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.bottominst {
+  max-width: 800px;
+  margin-left:200px ;
+}
+.text-center {
+  text-align: center;
+}
+.report {
+  width: 200px;
+  display: block;
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  background: #fff;
+  border: 1px solid #000;
+  text-align: center;
+  margin-top:150px;
+  right:500px;
+}
+.btn-default {
+  color:black;
+  background-color: white;
+  border-color: #000;
+  text-decoration: none;
+  
+}
+.ms-mb-x {
+  margin-bottom: 25px;
+}
+
+

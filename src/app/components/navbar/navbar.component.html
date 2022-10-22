@@ -1,0 +1,103 @@
+<div class="navigation fixed-top">
+  <h1 class="heading" routerLink='Home'>
+      acecraft
+  </h1>
+<nav class="navbar navbar-expand-lg " style="color: rgb(255, 255, 255);">
+  <button class="navbar-toggler" style="color:white;" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="fa fa-bars" style="color:white">
+    </span>
+  </button>
+  <div class="collapse navbar-collapse text-center " id="navbarSupportedContent">
+    <ul class="navbar-nav" style="margin-left: 550px;">
+      <li class="nav-item">
+        <a class="nav-link" routerLink="school"><b style="margin-right:23px">SCHOOL</b></a>
+      </li>
+     
+      <li class="nav-item">
+        <a class="nav-link" routerLink="college"><b style="margin-right:23px">COLLEGE</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="enterprise"><b style="margin-right:23px">ENTERPRISE</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="notes"><b style="margin-right:23px">NOTES</b></a>
+      </li>
+    </ul>
+    <ul class="navbar-nav" style="margin-left:280px">
+      <li class="nav-item">
+      <div class="dropright">
+        <a class="menu-button " mat-button style="font-size:20px;color:white;margin-left: 100px;" type="button" data-toggle="dropdown"
+        data-target="#collapseExample1" aria-controls="collapseExample1" aria-expanded="false">
+        <!-- <span class="fa fa-cog"></span> -->
+        <img
+         style="width: 21px; margin-right:50px;"
+        src="http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/setting.png" alt="">
+      </a>
+        <div class="dropdown-menu" style="background: transparent; width: 10px;margin-right: 50px;
+        background-image: linear-gradient(to left, rgb(0 0 0),#5a131300);
+        height: 100vh;
+        border: none;">
+        <br><br>
+          <li class="nav-item" *ngIf="!auth">
+            <div class="nav-link" routerLink='login'>
+              <span class="drop-items">Sign In 
+                <span class='fa fa-solid fa-sign-in drop-items'></span></span>
+              
+            </div>
+          </li>
+          <li class="nav-item" *ngIf="!auth">
+            <div class="nav-link" routerLink='register' >
+              <span class="drop-items">Register
+              
+              <span class='fa fa-solid fa-registered drop-items'></span>
+              </span>
+             
+            </div>
+          </li>
+          <li class="nav-item" *ngIf="auth">
+            <div class="nav-link" routerLink='orderstatus'>
+              <span class="drop-items">Order
+               
+              <span class='fa fa-solid fa-calendar drop-items' ></span>
+            </span>   
+          </div>
+          </li>
+          <li class="nav-item" style="text-decoration: none;" *ngIf="auth">
+            <div class="nav-link" routerLink='contact'>
+              <span class="drop-items">Contact  <span class='fa fa-solid fa-address-book drop-items' ></span></span>
+          </div>
+          </li>
+          <li class="nav-item" style="text-decoration: none;" *ngIf="auth" >
+            <div class="nav-link" routerLink='account'>
+              <span class="drop-items">Account  <span class='fa fa-solid fa-user drop-items' ></span></span>
+          </div>
+          </li> 
+          <p *ngIf="auth" class="logout_text" routerLink="login">
+            Logout
+          </p>
+        </div>
+      </div>
+    </li>
+      <li class="nav-item " *ngIf="auth">
+        <button mat-button routerLink='cartItem' matBadge="" matBadgePosition="after" color="gray" style="outline:none;background: transparent;" >
+          <span class="fa fa-shopping-cart" style="font-size:20px;color:white; ">
+            <sup class="text-light" style="font-size: 15px;
+            margin-left: 3px;
+            background-color: grey;
+            padding: 0px 4px 2px 1px;
+            border: 1px solid grey;
+            border-radius: 23px;">
+               <!-- {{getCartCount()}} -->
+               {{cartCount}}
+              <!-- 1 -->
+          </sup></span>
+        </button>
+      </li>
+     
+    </ul>
+  </div>
+</nav>
+
+</div>

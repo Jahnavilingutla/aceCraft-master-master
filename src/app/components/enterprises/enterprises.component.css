@@ -1,0 +1,218 @@
+.main-display-image {
+    background-size: cover;
+    /* background-image: url(http://cdn.storehippo.com/s/5997cc7…/ms.files/Enterprises-1.jpg); */
+    background-position: center 120px;
+    background-attachment: fixed;
+    min-height: 100vh;
+  }
+  h1, h2, h3, h4{
+    
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+  }
+  h4,h5,h6{
+    margin-top: 10.5px;
+    margin-bottom: 10.5px;
+  }
+  h4{
+    display: block;
+      margin-block-start: 1.33em;
+      margin-block-end: 1.33em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
+  
+  }
+  .p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: #3e3c3c;
+  }
+  .h-0 {
+    height: 0px;
+  }
+  
+  .gutter-0 {
+    --bs-gutter-x: 0 !important;
+  }
+  
+  .image-bg-text {
+    width: 100%;
+    left: 0;
+    font-size: 30px;
+    bottom: 80px;
+    
+    position: absolute;
+    text-align: center;
+    line-height: 1;
+    color: #978f8f;
+  }
+  
+  .bg-grey {
+    background-color: #dadada;
+  }
+  
+  
+  .second-block {
+    padding-top: 50px;
+    color: black;
+    font-weight: 600;
+  }
+  
+  .image-card {
+    display: flex;
+  
+    margin-top: 5%;
+    margin-bottom: 100px;
+  
+  }
+  
+  .image-container {
+    background-position: center;
+    color: #f7f1f1;
+   
+    padding: 10px;
+    transition: all 0.1s ease;
+    background-size: inherit;
+    display: flex;
+    text-align: center;
+    border-radius: 12px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    line-height: 1.428571429;
+    font-family: proxima-Thin;
+    margin: 0;
+  
+    /* transform: scale(1.1); */
+    transition: transform .1s;
+    box-shadow: 6px 6px 5px 4px rgb(70, 70, 70);
+  }
+  
+  .image-container:hover {
+    transform: scale(.8);
+  }
+  
+  .design {
+    background-image: url(../../../assets/images/Enterprises-3.png);
+    width: 300px;
+    height: 300px;
+  }
+  
+  .size {
+    background-image: url(../../../assets/images/Enterprises-2.png);
+    width: 300px;
+    height: 300px;
+  }
+  
+  .team {
+    background-image: url(../../../assets/images/Enterprises-4.png);
+    width: 300px;
+    height: 300px;
+  }
+  
+  .third-block {
+    color: #978f8f;
+    background-color: black;
+    padding: 80px;
+  }
+  .section1 {
+    background-image: url('../../../assets/images/Enterprises-1.jpg');
+    background-size: cover ;
+    background-attachment: fixed ;
+    height: 900px;
+    margin-top:-100px px;
+    background-position: center 120px;
+    background-repeat: no-repeat;
+  
+  
+  
+  }
+  
+  .flex-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  
+  }
+  .li{
+  
+    position: absolute;
+    width: 90%;
+    border-top: 1px solid #ffffff7d;
+    top: 30px;
+    left: 97px;
+  }
+  .icon img {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .display-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .fourth-block {
+    background-size: cover;
+    background-image: url('../../../assets/images/bottom-block.png');
+    background-position: top;
+  
+    height: 500px;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  .fifth-block {
+    background-size: cover;
+    background-image: url('http://cdn.storehippo.com/s/5997cc7c4d6e8ffa20e50aae/ms.files/Untitled-2.png');
+    background-position: top;
+    height:500px;
+    background-repeat: no-repeat;
+    background-color: black;
+  }
+  
+  .center-block {
+    padding: 20px;
+    background: #000000;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    left: calc(50vw - 125px);
+    box-shadow: 0px 9px 18px #0000007d;
+    top: 305%;
+    z-index: 200;
+  }
+  
+  @media (min-width: 1025px) {
+  
+    .second-block,
+    .third-block {
+        height: auto;
+        overflow: hidden;
+    }
+  }
+  #pot {
+    
+    position: absolute;
+    color: #978f8f;
+    font-size: 20px;
+    margin-left: 0px;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 1s;
+  }
+   @keyframes run {
+    0% {
+      bottom: 16%;
+    }
+    50% {
+      bottom: 18%;
+    }
+    100% {
+      bottom:16%;
+    }
+  }
+  
